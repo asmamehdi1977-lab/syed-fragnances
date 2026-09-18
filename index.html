@@ -247,12 +247,11 @@
                 </div>
             </div>
             
-            <!-- Right Cinematic Image -->
+            <!-- Right Cinematic Image - NOW USING ELEGANT PERFUME -->
             <div class="w-full md:w-1/2 h-[50vh] md:h-full relative mt-8 md:mt-0 opacity-0 animate-[fadeInUp_1s_ease-out_0.3s_forwards]">
                 <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-radial-gradient from-gold/10 to-transparent blur-[50px] z-0"></div>
-                <!-- Premium Perfume Bottle Placeholders (Cinematic setup) -->
-                <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800" 
-                     alt="Bukhari Signature Bottle" 
+                <img src="elegant-perfume.jpg" 
+                     alt="TRUE GEN Z'S Bottle" 
                      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-h-[85%] object-contain z-10 drop-shadow-[0_30px_50px_rgba(0,0,0,0.9)] animate-float mix-blend-lighten">
             </div>
         </div>
@@ -274,7 +273,7 @@
 
             <!-- Dynamic Signature Products Grid (5 Items) -->
             <div id="signatureGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-4 mb-16">
-                <!-- Injected via JS (Ali Turab, Hassan, aliiiiiiii, Bukhari, Asma) -->
+                <!-- Injected via JS (TRUE GEN Z'S, Hassan, aliiiiiiii, Bukhari, Asma) -->
             </div>
 
             <div class="text-center reveal">
@@ -303,7 +302,7 @@
                     <img src="https://images.unsplash.com/photo-1523293115678-d2902f508b6d?auto=format&fit=crop&q=80&w=600" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 grayscale group-hover:grayscale-0">
                     <div class="relative z-20 h-full flex flex-col justify-end p-8 border border-white/5 group-hover:border-gold/30 transition-colors">
                         <h3 class="font-serif text-2xl font-bold text-white mb-2 group-hover:text-gold transition-colors">Signature</h3>
-                        <p class="text-white/60 text-xs font-light mb-6">Ali Turab • Hassan • aliiiiiiii • Mehdi</p>
+                        <p class="text-white/60 text-xs font-light mb-6">TRUE GEN Z'S • Hassan • aliiiiiiii • Mehdi</p>
                         <span class="inline-block border border-white/30 text-white text-[10px] tracking-widest uppercase px-6 py-2 w-max group-hover:bg-gold group-hover:text-black group-hover:border-gold transition-all">Explore Collection</span>
                     </div>
                 </div>
@@ -542,7 +541,7 @@
                 <div class="bg-dark-card p-10 border border-gold/20 text-center reveal delay-100 hover:-translate-y-2 transition-transform duration-300 shadow-[0_0_20px_rgba(212,175,55,0.05)] relative overflow-hidden">
                     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-[1px] bg-gold"></div>
                     <div class="text-gold text-sm mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p class="text-white/70 italic text-sm mb-6 leading-relaxed">“The depth of Ali Turab is simply unmatched. It feels expensive, mysterious, and beautifully complex throughout the day.”</p>
+                    <p class="text-white/70 italic text-sm mb-6 leading-relaxed">“The depth of TRUE GEN Z'S is simply unmatched. It feels expensive, mysterious, and beautifully complex throughout the day.”</p>
                     <h5 class="font-serif text-xs tracking-widest uppercase text-white">Omar S.</h5>
                 </div>
                 <!-- Card 3 -->
@@ -556,9 +555,10 @@
         </div>
     </section>
 
+    <!-- NOW USING ELEGANT PERFUME FOR FOOTER BANNER -->
     <section class="relative py-40 overflow-hidden flex items-center justify-center bg-dark">
         <div class="absolute inset-0 z-0 opacity-40">
-            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=2000" 
+            <img src="elegant-perfume.jpg" 
                  class="w-full h-full object-cover scale-110 blur-[3px]">
             <div class="absolute inset-0 bg-gradient-to-t from-dark via-dark/80 to-transparent"></div>
         </div>
@@ -652,7 +652,7 @@
         </div>
     </div>
 
-    <!-- NEW: Order Checkout Modal -->
+    <!-- Order Checkout Modal -->
     <div id="checkoutModal" class="fixed inset-0 bg-dark/95 backdrop-blur-md z-[150] hidden flex-col justify-center items-center px-6 transition-opacity duration-300 opacity-0">
         <div class="bg-dark-card border border-gold/30 p-8 max-w-md w-full relative shadow-[0_0_30px_rgba(212,175,55,0.1)]">
             <button onclick="closeCheckoutModal()" class="absolute top-4 right-4 text-gold/50 hover:text-gold text-xl"><i class="fas fa-times"></i></button>
@@ -679,6 +679,10 @@
                     <input type="tel" name="Phone" required class="w-full bg-dark border border-white/20 text-white px-4 py-2 focus:border-gold transition-colors outline-none">
                 </div>
                 <div>
+                    <label class="block text-white/70 text-[10px] tracking-widest uppercase mb-1">Quantity</label>
+                    <input type="number" name="Quantity" min="1" value="1" required class="w-full bg-dark border border-white/20 text-white px-4 py-2 focus:border-gold transition-colors outline-none">
+                </div>
+                <div>
                     <label class="block text-white/70 text-[10px] tracking-widest uppercase mb-1">Delivery Address</label>
                     <textarea name="Address" required rows="3" class="w-full bg-dark border border-white/20 text-white px-4 py-2 focus:border-gold transition-colors outline-none"></textarea>
                 </div>
@@ -691,9 +695,10 @@
     </div>
 
     <script>
-        // 1. Shared Product Database (Exact matches for 10 perfumes)
+        // 1. Shared Product Database
+        // UPDATED: TRUE GEN Z'S now uses elegant-perfume.jpg
         const products = [
-            { id: 1, name: "ALI TURAB", category: "Woody • Oud", family: "Oud", occasion: "Evening", style: "Mysterious", price: 4999, rating: 5, img: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=400" },
+            { id: 1, name: "TRUE GEN Z'S", category: "Woody • Oud", family: "Oud", occasion: "Evening", style: "Mysterious", price: 10000, rating: 5, img: "elegant-perfume.jpg" },
             { id: 2, name: "HASSAN", category: "Amber • Spicy", family: "Spicy", occasion: "Evening", style: "Bold", price: 4499, rating: 4.8, img: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&q=80&w=400" },
             { id: 3, name: "aliiiiiiii", category: "Woody • Oriental", family: "Woody", occasion: "Special Occasion", style: "Elegant", price: 5499, rating: 5, img: "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&q=80&w=400" },
             { id: 4, name: "MEHDI", category: "Musk • Amber", family: "Amber", occasion: "Office", style: "Classic", price: 4799, rating: 4.9, img: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=400" },
@@ -730,13 +735,13 @@
             });
         }
 
-        // NEW: Updated addToCart logic for the modal
+        // Receives only the product ID to bypass apostrophe syntax errors
         let currentSelectedProduct = null;
 
-        window.addToCart = function(id, name, event) {
-            if(event) event.stopPropagation();
+        window.addToCart = function(id, event) {
+            if(event) event.stopPropagation(); // Prevents click from bubbling to the card parent
             
-            // Find the product being ordered
+            // Find the product being ordered directly by its ID
             currentSelectedProduct = products.find(p => p.id === id);
 
             // Populate hidden inputs and text in the modal
@@ -751,7 +756,7 @@
             document.body.style.overflow = 'hidden'; 
         }
 
-        // NEW: Function to close the modal
+        // Function to close the modal
         window.closeCheckoutModal = function() {
             const modal = document.getElementById('checkoutModal');
             modal.classList.add('opacity-0');
@@ -759,7 +764,7 @@
             document.body.style.overflow = 'auto';
         }
 
-        // NEW: Form submission logic
+        // Form submission logic
         window.submitOrder = function(e) {
             e.preventDefault();
             
@@ -828,6 +833,7 @@
                 else starsHTML+='<i class="far fa-star"></i>';
             }
 
+            // Inline onclick syntax - safely passing just the product ID.
             return `
             <div class="group bg-dark-card border border-white/5 flex flex-col h-full relative hover:border-gold/30 transition-all duration-500 gold-glow cursor-pointer" onclick="window.location.href='shop.html?id=${p.id}'">
                 <button data-id="${p.id}" onclick="toggleWishlist(${p.id}, event)" class="wishlist-btn absolute top-4 right-4 z-20 text-white/40 hover:text-gold transition-colors">
@@ -835,7 +841,7 @@
                 </button>
                 <div class="${isCompact ? 'h-56' : 'h-72'} overflow-hidden relative bg-[#0a0a0a] flex items-center justify-center p-6">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                    <img src="${p.img}" alt="${p.name}" class="h-full object-contain relative z-0 transform group-hover:scale-110 transition-transform duration-700 mix-blend-lighten drop-shadow-2xl">
+                    <img src="${p.img}" alt="${p.name.replace(/"/g, '&quot;')}" class="h-full object-contain relative z-0 transform group-hover:scale-110 transition-transform duration-700 mix-blend-lighten drop-shadow-2xl">
                     <div class="absolute inset-0 bg-black/40 backdrop-blur-[2px] z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                         <span class="px-6 py-2 border border-gold text-gold text-[10px] tracking-widest uppercase bg-black/50">View Fragrance</span>
                     </div>
@@ -848,7 +854,7 @@
                     </div>
                     <div>
                         <p class="font-sans text-white/90 text-sm mb-4">${price}</p>
-                        <button onclick="addToCart(${p.id}, '${p.name}', event)" class="w-full py-3 border border-white/20 text-[10px] font-bold tracking-widest uppercase text-white/70 hover:bg-gold hover:text-black hover:border-gold transition-all duration-300">
+                        <button onclick="addToCart(${p.id}, event)" class="w-full py-3 border border-white/20 text-[10px] font-bold tracking-widest uppercase text-white/70 hover:bg-gold hover:text-black hover:border-gold transition-all duration-300">
                             Add to Cart
                         </button>
                     </div>
@@ -858,7 +864,7 @@
 
         // Initialize Grids
         document.addEventListener('DOMContentLoaded', () => {
-            // Signature (Ali Turab, Hassan, aliiiiiiii, Bukhari, Asma)
+            // Signature (TRUE GEN Z'S, Hassan, aliiiiiiii, Bukhari, Asma)
             const sigIds = [1, 2, 3, 5, 10];
             const sigHTML = sigIds.map(id => generateProductCard(products.find(p => p.id === id))).join('');
             document.getElementById('signatureGrid').innerHTML = sigHTML;
